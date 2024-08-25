@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Documentation - FCC</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="sidebar" id="navbar">
+        <header>HTML Documentation</header>
+        <a href="#Introduction_to_the_Documentation_Site" class="nav-link"
+          >Introduction to the Documentation Site</a
+        >
+        <a class="nav-link" href="#Text_Content">Text Content</a>
+        <a class="nav-link" href="#Images_and_Media">Images and Media</a>
+        <a class="nav-link" href="#Links_and_Navigation"
+          >Links and Navigation</a
+        >
+        <a class="nav-link" href="#Forms">Forms</a>
+        <a class="nav-link" href="#Tables">Tables</a>
+        <a class="nav-link" href="#Lists">Lists</a>
+        <a class="nav-link" href="#Metadata">Metadata</a>
+        <a class="nav-link" href="#Miscellaneous_Tags">Miscellaneous Tags</a>
+      </nav>
+      <main class="content" id="main-doc">
+        <section
+          id="Introduction_to_the_Documentation_Site"
+          class="main-section"
+        >
+          <header>Introduction to the Documentation Site</header>
+          <p>
+            Welcome to the HTML documentation site. Here you will find
+            information about various HTML tags and their usage.
+          </p>
+          <h2>Table of Contents</h2>
+          <ul>
+            <li><a href="#Text_Content">Text Content</a></li>
+            <li>
+              <a href="#Images_and_Media">Images and Media</a>
+            </li>
+            <li>
+              <a href="#Links_and_Navigation">Links and Navigation</a>
+            </li>
+            <li><a href="#Forms">Forms</a></li>
+            <li><a href="#Tables">Tables</a></li>
+            <li><a href="#Lists">Lists</a></li>
+            <li><a href="#Metadata">Metadata</a></li>
+            <li>
+              <a href="#Miscellaneous_Tags">Miscellaneous Tags</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="Text_Content" class="main-section">
+          <header>Text Content</header>
+          <p>
+            In this section, you'll learn about various text-related HTML tags
+            and their usage.
+          </p>
+          <h2>Headings</h2>
+          <p>
+            Headings range from <code>&lt;h1&gt;</code> to
+            <code>&lt;h6&gt;</code>. Each heading tag represents a different
+            level of section heading.
+          </p>
+          <h2>Paragraphs</h2>
+          <p>
+            The <code>&lt;p&gt;</code> tag is used to define blocks of text.
+          </p>
+          <h2>Blockquotes</h2>
+          <p>
+            Use <code>&lt;blockquote&gt;</code> for quoted sections of text.
+          </p>
+          <h2>Preformatted Text</h2>
+          <p>
+            The <code>&lt;pre&gt;</code> tag is used for text with preserved
+            whitespace and formatting.
+          </p>
+          <h2>Bold, Italic, Underline, Strikethrough</h2>
+          <p>
+            Use <code>&lt;b&gt;</code> or <code>&lt;strong&gt;</code> for bold
+            text, <code>&lt;i&gt;</code> or <code>&lt;em&gt;</code> for italic
+            text, <code>&lt;u&gt;</code> for underline, and
+            <code>&lt;s&gt;</code> for strikethrough.
+          </p>
+          <h2>Subscript and Superscript</h2>
+          <p>
+            Use <code>&lt;sub&gt;</code> for subscript text and
+            <code>&lt;sup&gt;</code> for superscript text.
+          </p>
+          <h2>Abbreviations, Citations, and Inline Quotes</h2>
+          <p>
+            Use <code>&lt;abbr&gt;</code> for abbreviations,
+            <code>&lt;cite&gt;</code> for citations, and
+            <code>&lt;q&gt;</code> for inline quotes.
+          </p>
+        </section>
+
+        <section id="Images_and_Media" class="main-section">
+          <header>Images and Media</header>
+          <h2>Embedding Images</h2>
+          <p>
+            Embedding images using the <code>&lt;img&gt;</code> tag. Example:
+            <code>&lt;img src="image.jpg" alt="Description"&gt;</code>.
+          </p>
+          <h2>Figure and Figcaption</h2>
+          <p>
+            Use <code>&lt;figure&gt;</code> to group images with a caption and
+            <code>&lt;figcaption&gt;</code> to add a caption. Example:
+            <code
+              >&lt;figure&gt;&lt;img src="image.jpg"
+              alt="Description"&gt;&lt;figcaption&gt;Caption
+              text&lt;/figcaption&gt;&lt;/figure&gt;</code
+            >.
+          </p>
+          <h2>Embedding Audio</h2>
+          <p>
+            Embedding audio using the <code>&lt;audio&gt;</code> tag. Example:
+            <code
+              >&lt;audio controls&gt;&lt;source src="audio.mp3"
+              type="audio/mpeg"&gt;Your browser does not support the audio
+              element.&lt;/audio&gt;</code
+            >.
+          </p>
+          <h2>Embedding Video</h2>
+          <p>
+            Embedding video using the <code>&lt;video&gt;</code> tag. Example:
+            <code
+              >&lt;video controls&gt;&lt;source src="video.mp4"
+              type="video/mp4"&gt;Your browser does not support the video
+              tag.&lt;/video&gt;</code
+            >.
+          </p>
+        </section>
+
+        <section id="Links_and_Navigation" class="main-section">
+          <header>Links and Navigation</header>
+          <h2>Anchor Links</h2>
+          <p>
+            Anchor links using the <code>&lt;a&gt;</code> tag. Example:
+            <code>&lt;a href="https://example.com"&gt;Example&lt;/a&gt;</code>.
+          </p>
+          <h2>Navigation Using <code>&lt;nav&gt;</code></h2>
+          <p>
+            Navigation using the <code>&lt;nav&gt;</code> tag. Example:
+            <code
+              >&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a
+              href="home.html"&gt;Home&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
+              href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;</code
+            >.
+          </p>
+          <h2>Linking to Other Pages</h2>
+          <p>
+            Linking to other pages within the documentation using relative URLs.
+            Example: <code>&lt;a href="page2.html"&gt;Page 2&lt;/a&gt;</code>.
+          </p>
+          <h2>Email and Telephone Links</h2>
+          <p>
+            Email links using <code>mailto:</code>. Example:
+            <code
+              >&lt;a href="mailto:someone@example.com"&gt;Email
+              Us&lt;/a&gt;</code
+            >.
+          </p>
+          <p>
+            Telephone links using <code>tel:</code>. Example:
+            <code>&lt;a href="tel:+1234567890"&gt;Call Us&lt;/a&gt;</code>.
+          </p>
+        </section>
+
+        <section id="Forms" class="main-section">
+          <header>Forms</header>
+          <h2>Form Structure</h2>
+          <p>
+            Form structure using <code>&lt;form&gt;</code>,
+            <code>&lt;fieldset&gt;</code>, and <code>&lt;legend&gt;</code>.
+            Example:
+            <code
+              >&lt;form action="submit.html"
+              method="post"&gt;&lt;fieldset&gt;&lt;legend&gt;Personal
+              Information&lt;/legend&gt;&lt;label
+              for="name"&gt;Name:&lt;/label&gt;&lt;input type="text" id="name"
+              name="name"&gt;&lt;/fieldset&gt;&lt;/form&gt;</code
+            >.
+          </p>
+          <h2>Input Types</h2>
+          <p>
+            Different input types such as
+            <code>&lt;input type="text"&gt;</code>,
+            <code>&lt;input type="password"&gt;</code>, etc. Example:
+            <code>&lt;input type="email" id="email" name="email"&gt;</code>.
+          </p>
+          <h2>Textarea, Select, and Option</h2>
+          <p>
+            Using <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>,
+            and <code>&lt;option&gt;</code>. Example:
+            <code
+              >&lt;select name="options"&gt;&lt;option value="1"&gt;Option
+              1&lt;/option&gt;&lt;option value="2"&gt;Option
+              2&lt;/option&gt;&lt;/select&gt;</code
+            >.
+          </p>
+          <h2>Buttons</h2>
+          <p>
+            Using <code>&lt;button&gt;</code>,
+            <code>&lt;input type="submit"&gt;</code>, and
+            <code>&lt;input type="reset"&gt;</code>. Example:
+            <code>&lt;button type="submit"&gt;Submit&lt;/button&gt;</code>.
+          </p>
+        </section>
+
+        <section id="Tables" class="main-section">
+          <header>Tables</header>
+          <h2>Basic Table Structure</h2>
+          <p>
+            Basic table structure using <code>&lt;table&gt;</code>,
+            <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, and
+            <code>&lt;td&gt;</code>. Example:
+            <code
+              >&lt;table&gt;&lt;tr&gt;&lt;th&gt;Header
+              1&lt;/th&gt;&lt;th&gt;Header
+              2&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Data
+              1&lt;/td&gt;&lt;td&gt;Data
+              2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</code
+            >.
+          </p>
+          <h2>Table Headers and Captions</h2>
+          <p>
+            Table headers using <code>&lt;thead&gt;</code>,
+            <code>&lt;tbody&gt;</code>, and <code>&lt;tfoot&gt;</code>. Example:
+            <code
+              >&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Header
+              1&lt;/th&gt;&lt;th&gt;Header
+              2&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Data
+              1&lt;/td&gt;&lt;td&gt;Data
+              2&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;tfoot&gt;&lt;tr&gt;&lt;td&gt;Footer
+              1&lt;/td&gt;&lt;td&gt;Footer
+              2&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;&lt;/table&gt;</code
+            >.
+          </p>
+          <h2>Colspan and Rowspan</h2>
+          <p>
+            Using <code>colspan</code> and <code>rowspan</code> attributes for
+            spanning cells across columns or rows. Example:
+            <code>&lt;td colspan="2"&gt;Spanning Cell&lt;/td&gt;</code>.
+          </p>
+          <h2>Responsive Tables</h2>
+          <p>
+            Making tables responsive using CSS techniques like overflow and
+            media queries.
+          </p>
+        </section>
+
+        <section id="Lists" class="main-section">
+          <header>Lists</header>
+          <h2>Unordered Lists</h2>
+          <p>
+            Unordered lists using <code>&lt;ul&gt;</code> and
+            <code>&lt;li&gt;</code>. Example:
+            <code
+              >&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item
+              2&lt;/li&gt;&lt;li&gt;Item 3&lt;/li&gt;&lt;/ul&gt;</code
+            >.
+          </p>
+          <h2>Ordered Lists</h2>
+          <p>
+            Ordered lists using <code>&lt;ol&gt;</code> and
+            <code>&lt;li&gt;</code>. Example:
+            <code
+              >&lt;ol&gt;&lt;li&gt;First&lt;/li&gt;&lt;li&gt;Second&lt;/li&gt;&lt;li&gt;Third&lt;/li&gt;&lt;/ol&gt;</code
+            >.
+          </p>
+          <h2>Definition Lists</h2>
+          <p>
+            Definition lists using <code>&lt;dl&gt;</code>,
+            <code>&lt;dt&gt;</code>, and <code>&lt;dd&gt;</code>. Example:
+            <code
+              >&lt;dl&gt;&lt;dt&gt;Term&lt;/dt&gt;&lt;dd&gt;Definition&lt;/dd&gt;&lt;/dl&gt;</code
+            >.
+          </p>
+          <h2>Nested Lists</h2>
+          <p>
+            Nesting lists by placing <code>&lt;ul&gt;</code> or
+            <code>&lt;ol&gt;</code> inside <code>&lt;li&gt;</code> elements.
+          </p>
+        </section>
+
+        <section id="Metadata" class="main-section">
+          <header>Metadata</header>
+          <h2>Meta Tags</h2>
+          <p>
+            Meta tags within the <code>&lt;head&gt;</code> section to provide
+            metadata about the document. Example:
+            <code>&lt;meta charset="UTF-8"&gt;</code>.
+          </p>
+          <h2>Title Tag</h2>
+          <p>
+            The <code>&lt;title&gt;</code> tag to define the document's title.
+            Example: <code>&lt;title&gt;Document Title&lt;/title&gt;</code>.
+          </p>
+          <h2>Link Tag</h2>
+          <p>
+            The <code>&lt;link&gt;</code> tag to link external resources like
+            stylesheets. Example:
+            <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>.
+          </p>
+          <h2>Base Tag</h2>
+          <p>
+            The <code>&lt;base&gt;</code> tag to specify the base URL for
+            relative URLs in the document. Example:
+            <code>&lt;base href="https://example.com/"&gt;</code>.
+          </p>
+        </section>
+
+        <section id="Miscellaneous_Tags" class="main-section">
+          <header>Miscellaneous Tags</header>
+          <h2>Comments</h2>
+          <p>
+            HTML comments using <code>&lt;!-- --&gt;</code> to add notes or
+            explanations within the code. Example:
+            <code>&lt;!-- This is a comment --&gt;</code>.
+          </p>
+          <h2>Div and Span</h2>
+          <p>
+            The <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> tags for
+            grouping and styling purposes. Example:
+            <code>&lt;div&gt;Content here&lt;/div&gt;</code>.
+          </p>
+          <h2>Section, Article, and Aside</h2>
+          <p>
+            The <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and
+            <code>&lt;aside&gt;</code> tags for defining sections of content.
+            Example:
+            <code>&lt;section&gt;Section content&lt;/section&gt;</code>.
+          </p>
+          <h2>Footer and Header</h2>
+          <p>
+            The <code>&lt;footer&gt;</code> and <code>&lt;header&gt;</code> tags
+            for defining the footer and header of a document or section.
+            Example: <code>&lt;footer&gt;Footer content&lt;/footer&gt;</code>.
+          </p>
+          <h2>Progress and Meter</h2>
+          <p>
+            The <code>&lt;progress&gt;</code> and
+            <code>&lt;meter&gt;</code> tags for displaying progress and
+            measurement. Example:
+            <code
+              >&lt;progress value="70" max="100"&gt;70%&lt;/progress&gt;</code
+            >.
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
